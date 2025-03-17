@@ -23,7 +23,7 @@ sudo mkdir -p /etc/systemd/system/docker.service.d
 sudo tee /etc/systemd/system/docker.service.d/override.conf <<EOF
 [Service]
 ExecStartPost=/bin/chown root:docker /var/run/docker.sock
-ExecStartPost=/bin/chmod 660 /var/run/docker.sock
+ExecStartPost=/bin/chmod 666 /var/run/docker.sock
 EOF
 
 
