@@ -35,7 +35,7 @@ sudo systemctl restart docker
 
 # To install sonarqube using docker
 
-docker run -d -p 9000:9000 --name sonarqube sonarqube:lts-community
+sudo docker run -d -p 9000:9000 --name sonarqube sonarqube:lts-community
 
 
 
