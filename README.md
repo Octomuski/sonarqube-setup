@@ -5,7 +5,7 @@ Run following command
 
 ## Curl command
 ```bash
- curl -o /tmp/sonarqube.sh https://raw.githubusercontent.com/Octomuski/sonarqube-setup/refs/heads/main/sonarqube.sh | sudo chmod +x /tmp/sonarqube.sh | bash /tmp/sonarqube.sh
+ curl -o /tmp/sonarqube.sh https://raw.githubusercontent.com/Octomuski/sonarqube-setup/refs/heads/main/sonarqube.sh && sudo chmod +x /tmp/sonarqube.sh && bash /tmp/sonarqube.sh
 
 ```
 
@@ -13,5 +13,5 @@ Run following command
 
 ## Wget command
 ```bash
-wget -O /tmp/sonarqube.sh https://raw.githubusercontent.com/Octomuski/sonarqube-setup/refs/heads/main/sonarqube.sh | sudo chmod +x /tmp/sonarqube.sh | bash /tmp/sonarqube.sh
+wget -O /tmp/sonarqube.sh https://raw.githubusercontent.com/Octomuski/sonarqube-setup/refs/heads/main/sonarqube.sh && sudo chmod +x /tmp/sonarqube.sh && bash /tmp/sonarqube.sh
 ```
